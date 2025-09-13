@@ -1,0 +1,11 @@
+# Requirements for local model support (GPT-2, LLaMA, etc.)
+# Install with: pip install -r requirements_local.txt
+
+torch>=2.0.0
+transformers>=4.40.0
+accelerate>=0.20.0  # For optimized model loading
+tokenizers>=0.15.0
+huggingface-hub>=0.22.0
+psutil>=5.9.0
+safetensors>=0.4.2
+sentencepiece>=0.1.99  # some LLaMA/tokenizers require it
